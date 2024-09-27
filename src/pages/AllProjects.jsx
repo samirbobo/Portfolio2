@@ -14,7 +14,7 @@ function AllProjects() {
   return (
     <>
       <div className="return-icon">
-        <Link to="/">
+        <Link to="/Portfolio">
           <BsFillArrowLeftCircleFill className="icon-project" />
         </Link>
         <FaSun
