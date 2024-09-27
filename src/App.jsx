@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/Portfolio2">
+        <Route path="/Portfolio">
           <Route index element={<Home />} />
           <Route path="all-projects" element={<AllProjects />} />
           <Route path="*" element={<NotFoundPage />} />
